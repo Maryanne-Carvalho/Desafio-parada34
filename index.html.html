@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Thrones</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/menu.js" defer></script>
+    <script src="js/carrossel.js" defer></script>
+</head>
+
+<body>
+    <div class="navbar">
+
+        <div class="navbar_logo"><span class="subtitle"> Game Of Thrones </span></div>
+
+        <a href="#" class="navbar_button">
+            <span class="bar" id="top"></span>
+            <span class="bar" id="center"></span>
+            <span class="bar" id="botton"></span>
+        </a>
+
+        <div class="navbar_links">
+            <ul>
+                <li> <a href="">Home</a> </li>
+                <li> <a href="">Curiosidades</a> </li>
+                <li> <a href="">Elenco</a> </li>
+                <li> <a href="">Bastidores</a> </li>
+                <li> <a href="">Game</a> </li>
+
+
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="fade">
+            <div class="n_text"> 1 / 5 </div>
+            <img src="img/img01.jpg" alt="Sophie Turner e Zunni">
+            <div class="i_text">
+                <h3>Sophie Turner tem seu próprio "Lobinho" na vida real</h3>
+                <p>A loba de Sansa Stark, Lady, foi morta por ordem de Eddard Stark a pedido da Rainha Cersei em "Game of Thrones". Fora da série, a atriz Sophie Turner adotou o animal, cujo nome verdadeiro é Zunni. "Sempre quis ter um cachorro, mas meus pais nunca quiseram. No set, me apaixonei por ele", contou Sophie.</p>
+            </div>
+        </div>
+        <div class="fade">
+            <div class="n_text"> 2 / 5 </div>
+            <img src="img/img02.jpg" alt="Jack Gleeson">
+            <div class="i_text">
+                <h3>Jack Gleeson, o Rei Joffrey, se Aposenta</h3>
+                <p>O vilão Rei Joffrey, um dos personagens mais odiados da TV, deixou de vez suas maldades. O ator Jack Gleeson, que interpretou Joffrey em "Game of Thrones", anunciou sua aposentadoria da atuação. Gleeson revelou que sua paixão pela atuação diminuiu e decidiu seguir uma carreira acadêmica.</p>
+            </div>
+        </div>
+        <div class="fade">
+            <div class="n_text"> 3 / 5 </div>
+            <img src="img/img03.jpg" alt="Game of Thrones Pirataria">
+            <div class="i_text">
+                <h3>A Série Mais Pirateada do Mundo</h3>
+                <p>"Game of Thrones" lidera a pirataria mundial, com mais de oito milhões de downloads ilegais. Em 2014, foi também o programa mais pesquisado no Google.</p>
+            </div>
+        </div>
+        <div class="fade">
+            <div class="n_text"> 4 / 5 </div>
+            <img src="img/img04.jpg" alt="Custo de Game of Thrones">
+            <div class="i_text">
+                <h3>Custo Elevado</h3>
+                <p>Cada episódio de "Game of Thrones" custa em média $6 milhões, tornando-a uma das séries mais caras já produzidas para a TV.</p>
+            </div>
+        </div>
+        <div class="fade">
+            <div class="n_text"> 5 / 5 </div>
+            <img src="img/img05.jpg" alt="Língua Dothraki">
+            <div class="i_text">
+                <h3>A Criação da Língua Dothraki</h3>
+                <p>Linguistas criaram mais de três mil palavras exclusivamente para a série "Game of Thrones". A língua Dothraki foi desenvolvida a partir de termos dos livros de George R.R. Martin, inspirada em idiomas de países como Turquia, Rússia e Estônia.</p>
+            </div>
+        </div>
+        <a class="prev" onclick="plus_slides(-1)">&#10094;</a>
+        <a class="next" onclick="plus_slides(1)">&#10095;</a>
+    </div>
+    <div class="dot_box">
+        <span class="dot" onclick="current_slides(1)"></span>
+        <span class="dot" onclick="current_slides(2)"></span>
+        <span class="dot" onclick="current_slides(3)"></span>
+        <span class="dot" onclick="current_slides(4)"></span>
+        <span class="dot" onclick="current_slides(5)"></span>
+    </div>
+    <footer>
+        <p>© Desenvolvido por Maryanne L. Carvalho - 2024</p>
+    </footer>
+</body>
+
+</html>
